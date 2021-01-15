@@ -1,0 +1,36 @@
+@import "./../../../../variables.scss";
+
+:host {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  .nav {
+    background-color: $white;
+    .nav-item {
+      .nav-link {
+        color: $default-color;
+        font-size: 0.875rem;
+        font-weight: 400;
+        padding: 0.625rem 1rem;
+        //transition: all 2000ms linear;
+        &.active {
+          font-weight: 700;
+          border-bottom: 4px solid #0a5f55;
+        }
+      }
+    }
+  }
+  section {
+    &.top {
+      background-color: $default-color;
+      color: $white;
+      padding: 1.25rem 0;
+      .header-title {
+        margin: 0;
+        font-weight: 700;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}

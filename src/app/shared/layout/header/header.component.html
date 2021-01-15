@@ -1,0 +1,39 @@
+<nav class="">
+  <ul class="nav justify-content-center navbar-expand-lg navbar-light navbar-fixed-top">
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Serviços ambulatóriais
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/servicos-urgencia-emergencia']" routerLinkActive="active">Serviços de urgência e emergência</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/servicos-hospitalares']" routerLinkActive="active">Serviços hospitalares</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#" routerLinkActive="active">Serviços de diagnóstico e imagens</a>
+    </li>
+  </ul>
+  <section class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm d-flex align-items-center">
+          <img src="./../../../../assets/images/logo.png" alt="Logo" width="101" height="46">
+          <h1 class="header-title">Espera nos serviços de emergência e urgência</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</nav>
+
